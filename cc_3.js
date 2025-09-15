@@ -3,3 +3,5 @@ let customers = [
     {name:"Miguel",email:"migueloncho@gmail.com",purchases:("shoes","Pokemon Card","Plunger")},
     {name:"Jorge",email:"georginho@gmail.com",purchases:("Apple","Watch","Towel")},
 ];
+customers.push({name:"Zach",email:"Zarchman@gmail.com",purchases:("Football","Anime","Glasses"})
+customers.shift("Carmen")
