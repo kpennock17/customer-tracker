@@ -8,3 +8,5 @@ customers.shift("Carmen")
 
 customers[0].email = "miguelthebell@gmail.com"
 customers[3].purchases.push =("Bag")
+
+customers.forEach(customer => {console.log(`${customer.name} | Email: ${customer.email} | Total Purchases: ${customer.purchases.length}`)});
