@@ -5,3 +5,6 @@ let customers = [
 ];
 customers.push({name:"Zach",email:"Zarchman@gmail.com",purchases:("Football","Anime","Glasses"})
 customers.shift("Carmen")
+
+customers[0].email = "miguelthebell@gmail.com"
+customers[3].purchases.push =("Bag")
